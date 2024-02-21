@@ -1,0 +1,28 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "Budi practicing react",
+  "scripts": {
+    "test": "jest",
+    "dev": "rm -rf .parcel-cache && parcel index.html",
+    "build": "rm -rf .parcel-cache && parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buditanrim/react-experiment.git"
+  },
+  "author": "Budi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buditanrim/react-experiment/issues"
+  },
+  "homepage": "https://github.com/buditanrim/react-experiment#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
