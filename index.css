@@ -1,3 +1,20 @@
 #heading {
   color: blue;
 }
+
+.resto-item {
+  background: #dfdfdf;
+  border: 1px solid black;
+  width: 200px;
+  padding: 12px;
+}
+
+.resto-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.resto-img {
+  width: 100%;
+}
