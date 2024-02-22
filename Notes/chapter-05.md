@@ -39,5 +39,23 @@ A: You can use `tsx` `jsx` or `js` - it doesn't matter at all. Don't overthink o
 
 A:
 
-
 ### Build a feature for filtering
+
+### React Hooks
+
+A Hook is a normal JS utility function. Created by Facebook developers with a superpower.
+
+- useState()
+- useEffect()
+
+Whenever a state variable changes, React will re-render the component
+
+```jsx
+let [myVar, setMyVar] = useState([])
+// is equal to
+let myVar = []
+
+let [myVar, setMyVar] = useState(null)
+// is equal to
+let myVar = null
+```
