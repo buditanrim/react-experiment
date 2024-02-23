@@ -9,7 +9,6 @@ const Body = () => {
 
   // The list of restaurant from resList using useState React function
   let [listOfRestaurants, setListOfRestaurants] = useState(resList)
-
   let [filteredRestaurant, setFilteredRestaurant] = useState(resList)
 
 

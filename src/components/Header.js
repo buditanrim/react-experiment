@@ -12,12 +12,6 @@ const Header = () => {
             <img src={LOGO_URL}></img>
             <Menu />
             <button onClick={() => {
-                // if (btnLabel === 'Login') {
-                //     setBtnLabel('Logout')
-                // } else {
-                //     setBtnLabel('Login')
-                // }
-
                 btnLabel === 'Login' ? setBtnLabel('Logout') : setBtnLabel('Login')
             }}
             >
